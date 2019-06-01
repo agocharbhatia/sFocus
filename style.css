@@ -1,0 +1,55 @@
+body {
+  background-color: #1D1D1D;
+}
+
+.top-j {
+  margin-top: 75px;
+}
+
+.navbar-brand {
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.nav-item {
+  font-family: 'Comfortaa', cursive;
+}
+
+.display-4 {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+.logo_site {
+  max-width: 50%;
+  max-height: 50%;
+
+}
+
+.dwnld {
+  color: #C8C8C8;
+  background-color: #1D1D1D;
+  
+}
+
+.logo_caption {
+  color: #C8C8C8;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+
+.jumbotron {
+  background-color: #C8C8C8;
+  color: #1D1D1D;
+  text-align: center;
+}
+
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+}
