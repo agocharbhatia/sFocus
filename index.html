@@ -16,7 +16,7 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+  <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <!-- Logo -->
     <a class="navbar-brand" href="#">sFocus</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,9 +24,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item active">
+        <li class="nav-item">
           <!-- Home Tab -->
-          <a class="nav-link" data-scroll href="#home">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" data-scroll href="#home">Home</a>
         </li>
         <li class="nav-item">
           <!-- About Tab -->
@@ -44,6 +44,7 @@
     </div>
   </nav>
 
+<div data-spy="scroll" data-target="navbar" data-offset="0">
   <!-- Home/Welcome Screen -->
   <div id="home" class="container text-center img-fluid" data-aos="zoom-in">
     <img class="logo_site" src="logo_site.png" alt="logo">
@@ -81,6 +82,7 @@
       </li>
     </ul>
   </div>
+</div>
 
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.0/dist/aos.js" charset="utf-8"></script>
