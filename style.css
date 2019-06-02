@@ -30,7 +30,6 @@ body {
 .dwnld {
   color: #C8C8C8;
   background-color: #1D1D1D;
-  
 }
 
 .logo_caption {
@@ -52,4 +51,13 @@ body {
 
 [aos="fade"].aos-animate {
   opacity: 1;
+}
+
+.iphone_img {
+  width: 25%;
+  height: 25%;
+}
+
+.feature-1 {
+  margin-top: 5%;
 }
