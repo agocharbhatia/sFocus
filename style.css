@@ -102,3 +102,31 @@ body {
   margin-right: 5.4%;
   color: #C8C8C8;
 }
+
+.info {
+  margin-top: 20%;
+}
+
+.info-item-1 {
+  color: #C8C8C8;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #0f0f0f;
+  padding: 45px 0px;
+}
+
+.info-item-2 {
+  color: #C8C8C8;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #0f0f0f;
+  padding: 45px 0px;
+}
+
+.info-item-3 {
+  color: #C8C8C8;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #0f0f0f;
+  padding: 45px 0px;
+}
