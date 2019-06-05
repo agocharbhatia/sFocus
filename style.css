@@ -113,14 +113,16 @@ body {
   border-radius: 25px;
   background-color: #0f0f0f;
   padding: 45px 0px;
+  font-family: 'Bree Serif', serif;
 }
 
 .info-item-2 {
-  color: #C8C8C8;
+  color: #0F0F0F;
   text-align: center;
   border-radius: 25px;
-  background-color: #0f0f0f;
+  background-color: #747373;
   padding: 45px 0px;
+  font-family: 'Bree Serif', serif;
 }
 
 .info-item-3 {
@@ -129,4 +131,20 @@ body {
   border-radius: 25px;
   background-color: #0f0f0f;
   padding: 45px 0px;
+  font-family: 'Bree Serif', serif;
+}
+
+.features {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.carousel {
+  width: 90%;
+  height: 90%;
+  margin-top: 10%;
+}
+
+.carousel-control-prev {
+  color: #C8C8C8;
 }
